@@ -28,7 +28,7 @@ Hard Disk Space:
 These system requirements were set after our most recent tests.
 
 ## Installation
-To intall a standalone version of this software, download the file gsdas.exe to open the installer.
+To intall a standalone version of this software, download the file gsdas 0.9.exe to open the installer.
 
 ## Testing
 
