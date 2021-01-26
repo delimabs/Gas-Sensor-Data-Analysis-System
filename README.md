@@ -1,7 +1,9 @@
 # Gas-Sensor-Data-Analysis-System (GSDAS)
 The Gas Sensor Data Analysis System is an open-source graphical user interface that facilitates the analysis procedure of dynamic response-recovery curves of gas sensors. The code was written in python 3, and it uses the open-source libraries matplotlib, pandas, NumPy, and SciPy for data visualization, handling, and fitting. PyQt is the library used for the graphical elements because it offers excellent flexibility and compatibility with different operating systems. It can analyze eight samples simultaneously that share the same time data, shortening the analysis process to a couple of minutes and using the same criteria to calculate the three main properties of a gas sensor: its response, the response time, and recovery time.
 
-This version is a beta test for suggestions under a typical GNU License.
+This is a beta test version under a typical GNU License. 
+
+Please, file suggestions and bug reports!
 
 ## Features
 
