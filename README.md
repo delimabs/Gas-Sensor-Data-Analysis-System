@@ -40,9 +40,9 @@ To perform a fast comparison between the samples, the user can access the normal
 
 By clicking the Response button in the dock menu, the user will access the response analysis menu. This dataset consists of a four-cycle exposure to NO2 of four different rGO-based sensors, exhibiting a p-type behavior towards this strong oxidizing gas. The exposure concentration is 0.5, 1, 2, and 5 ppm for each cycle, and they last 10 minutes. The recovery was set to 50 minutes. For each cycle, the user can enter the correspondent start time of exposure time, end time of exposure, and end time of recovery. 
 
-For instance, in the first cycle, these values are 50, 60, and 110 min. For the second, 110, 120, and 170. After entering the four exposure cycles information, calculating the response parameters for each cycle, and appending each of these values to a table, the user can then plot the response, response time, and recovery time versus concentration, as shown in Figure 3(c). Finally, these values can be fitted to the power law, and the system will return a plot of the response data and its respective power-law fit.
+For instance, in the first cycle, these values are 50, 60, and 110 min. For the second, 110, 120, and 170. After entering the four exposure cycles information, calculating the response parameters for each cycle, and appending each of these values to a table, the user can then plot the response, response time, and recovery time versus concentration. Finally, these values can be fitted to a power law R = aC^b, in which a and b are constants. The system will return a plot of the response data and the power-law fit for each column of the initial data set.
 
-All data and fit information can be exported to a specific location as .dat CSV files. The system will generate “.dat” files that will use the same column separator as the initial data file. 
+All data and fit information can be exported to a specific location as .dat CSV files by clicking the Export button menu in the dock widget. The system will generate “.dat” files that will use the same column separator as the initial data file. 
 
 These files “dataSample_1 Analysis. The prefixes FIT_DATA, FIT_INFO, NORM_DATA, RESPONSE_DATA, and VIS_DATA are related fitting data, info, normalization data, response data, and visualization data. These files are available for download.
 
