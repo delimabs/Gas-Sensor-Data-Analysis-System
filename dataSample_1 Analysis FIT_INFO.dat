@@ -1,6 +1,0 @@
-Power Law Fit function:
-Response = a*(Conc.)^b:
-fit ch1: a=23.32, b=0.33
-fit ch2: a=20.98, b=0.35
-fit ch3: a=20.53, b=0.40
-fit ch4: a=29.80, b=0.22
