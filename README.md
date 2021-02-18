@@ -13,12 +13,12 @@ The Gas Sensor Data Analysis system can handle CSV files that contain data from 
 
 The system offers a simple tool to:
 
-1.	Plot the data
-2.	Define a region of interest
-3.	Normalization for comparison
-4.	Simultaneous calculation of response, response-time, and recovey-time for all channels in the data file 
-5.	Power-law fitting of the response data
-6.	Exporting the analysis
+1.	Plot and visualize the data;
+2.	Define a region of interest;
+3.	Normalization for comparison;
+4.	Simultaneous calculation of response, response-time, and recovey-time for all channels in the data file;
+5.	Power-law fitting of the response data;
+6.	Export all data from the analysis;
 
 ## System Requirements
 
