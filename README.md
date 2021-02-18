@@ -1,5 +1,5 @@
 # Gas-Sensor-Data-Analysis-System (GSDAS)
-The Gas Sensor Data Analysis System is an open-source graphical user interface that facilitates the analysis procedure of dynamic response-recovery curves of gas sensors. The code was written in python 3, and it uses the open-source libraries matplotlib, pandas, NumPy, and SciPy for data visualization, handling, and fitting. PyQt is the library used for the graphical elements because it offers excellent flexibility and compatibility with different operating systems. It can analyze eight samples simultaneously that share the same time data, shortening the analysis process to a couple of minutes and using the same criteria to calculate the three main properties of a gas sensor: its response, the response time, and recovery time.
+The Gas Sensor Data Analysis System is an open-source graphical user interface that facilitates the analysis procedure of dynamic response-recovery curves of gas sensors. The code was written in python 3, and it uses the open-source libraries matplotlib, pandas, NumPy, and SciPy for data visualization, handling, and fitting. PyQt is the library used for the graphical elements because it offers excellent flexibility and compatibility with different operating systems. It can analyze up to eight samples simultaneously that share the same time data, shortening the analysis process to a couple of minutes and using the same criteria to calculate the three main properties of a gas sensor: its response, the response time, and recovery time.
 
 This is a beta test version under a typical GNU License. 
 
@@ -34,19 +34,17 @@ To intall a standalone version of this software, download the file gsdas 0.9.exe
 
 ## Testing
 
-For testing all functionalities of the software, the file dataSample_1 is available for download.
+For testing all functionalities of the software, the files dataSample_1 and dataSameple_2 are available for download.
 
-This file contains the time table in seconds, and each column represents the electrical resistance in Ohms from four different samples. By opening up this file in File > Open > Open CSV, the user can set the column separator to Tab, number of channels to 4, time factor to 60, channel factors to 1e3. Now, the time units are minutes, and the sensor signal is electrical resistance in kOhms. These unit values could also be given by the user and preview the data table. By accepting it, the data will be plotted in the plot area. To choose the visualization parameters for this analysis, the user can leave the four channles selected, set the time interval to 310 to 650 minutes, and select the time to zero check box.
+### dataSample_1
 
-To perform a fast comparison between the samples, the user can access the normalization menu and enter 50 in the input menu. The system has now divided each column by its own value at 50 minutes. This feature is designed for fast comparison between each data table. By clicking the visualization button, the previous data set is plotted. 
+This dataset corresponds to four different rGO-based sensors whose electrical resistance was recorded by controlled exposures of NO<sub>2</sub>, between 0.5 and 5 ppm. Each exposure cycle lasted 10 min and the recovery 50 min. For more information on the experimental details on this measurement, please, read the Experimental Info on the dataSample_1 file.
 
-By clicking the Response button in the dock menu, the user will access the response analysis menu. This dataset consists of a four-cycle exposure to NO2 of four different rGO-based sensors, exhibiting a p-type behavior towards this strong oxidizing gas. The exposure concentration is 0.5, 1, 2, and 5 ppm for each cycle, and they last 10 minutes. The recovery was set to 50 minutes. For each cycle, the user can enter the correspondent start time of exposure time, end time of exposure, and end time of recovery. 
+### dataSample_2
 
-For instance, in the first cycle, these values are 50, 60, and 110 min. For the second, 110, 120, and 170. After entering the four exposure cycles information, calculating the response parameters for each cycle, and appending each of these values to a table, the user can then plot the response, response time, and recovery time versus concentration. Finally, these values can be fitted to a power law R = aC^b, in which a and b are constants. The system will return a plot of the response data and the power-law fit for each column of the initial data set.
+This dataset corresponds to a stability test carried out on two ZnO-based sensors upon controlled O<sub>3</sub> exposure between 50 and 500 ppb during one month. Channels 1, 2, and 3 are the data from one sensor measured on three different weeks, while data from channels 4, 5, and 6 are the data from another similar sample measured at the same three weeks.
 
-All data and fit information can be exported to a specific location as .dat CSV files by clicking the Export button menu in the dock widget. The system will generate “.dat” files that will use the same column separator as the initial data file. 
-
-These files “dataSample_1 Analysis. The prefixes FIT_DATA, FIT_INFO, NORM_DATA, RESPONSE_DATA, and VIS_DATA are related fitting data, info, normalization data, response data, and visualization data. These files are available for download.
+Each exposure cycle was set to 15 min and the recovery to 60 min. For more information on the experimental details on this measurement, please, read the Experimental Info on the dataSample_2 file.
 
 ## Authors
 
