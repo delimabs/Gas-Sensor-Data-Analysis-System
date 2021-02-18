@@ -50,7 +50,7 @@ These files “dataSample_1 Analysis. The prefixes FIT_DATA, FIT_INFO, NORM_DATA
 
 ## Authors
 
-Bruno S. de Lima, Weverton A. S. Silva, Valmor R. Mastelaro, Amadou L. Ndiaye, Jérôme Brunet
+Bruno S. de Lima, Weverton A. S. Silva, Amadou L. Ndiaye, Valmor R. Mastelaro, and Jérôme Brunet
 
 
 ## Acknowledgments
