@@ -235,8 +235,7 @@ class GasSensorDataAnalysisSystem(QMainWindow):
 
         self.aboutBtn = QPushButton(self.dwWidget)
         self.aboutBtn.setText('About')
-        # self.aboutBtn.clicked.connect(self.showAboutDialog)
-        self.aboutBtn.clicked.connect(self.saveHighQualityFig)
+        self.aboutBtn.clicked.connect(self.showAboutDialog)
 
         self.exitBtn = QPushButton(self.dwWidget)
         self.exitBtn.setText('Exit')
@@ -959,19 +958,19 @@ class GasSensorDataAnalysisSystem(QMainWindow):
         self.colorPaletteOpt1.setChecked(True)
 
         self.colorPalette1 = QLabel(self.settingsDlgWidget3)
-        self.colorPalette1.setPixmap(QPixmap('palette1.png'))
+        self.colorPalette1.setPixmap(QPixmap('imgs/palette1.png'))
 
         self.colorPaletteOpt2 = QRadioButton(self.settingsDlgWidget3)
         self.colorPaletteOpt2.setText('Option 2:')
 
         self.colorPalette2 = QLabel(self.settingsDlgWidget3)
-        self.colorPalette2.setPixmap(QPixmap('palette2.png'))
+        self.colorPalette2.setPixmap(QPixmap('imgs/palette2.png'))
 
         self.colorPaletteOpt3 = QRadioButton(self.settingsDlgWidget3)
         self.colorPaletteOpt3.setText('Option 3:')
 
         self.colorPalette3 = QLabel(self.settingsDlgWidget3)
-        self.colorPalette3.setPixmap(QPixmap('palette3.png'))
+        self.colorPalette3.setPixmap(QPixmap('imgs/palette3.png'))
 
         self.settingsDlgWidget3Layout = QGridLayout(self.settingsDlgWidget3)
 
@@ -2590,7 +2589,7 @@ class GasSensorDataAnalysisSystem(QMainWindow):
             QSizePolicy.Maximum, QSizePolicy.Maximum)
 
         self.aboutLbl3 = QLabel(self.aboutDlg)
-        self.aboutLbl3.setPixmap(QPixmap('logo.png'))
+        self.aboutLbl3.setPixmap(QPixmap('imgs/logo.png'))
         self.aboutLbl3.setAlignment(QtCore.Qt.AlignCenter)
 
         self.aboutLbl4 = QLabel(self.aboutDlg)
@@ -2658,8 +2657,6 @@ class GasSensorDataAnalysisSystem(QMainWindow):
         else:
             event.ignore()
 
-    def saveHighQualityFig(self):
-        self.mainFigure.savefig('test.svg', dpi=300)
 
 if __name__ == "__main__":
     app = QApplication(sys.argv)
