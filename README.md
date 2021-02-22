@@ -18,7 +18,8 @@ The system offers a simple tool to:
 3.	Normalization for comparison;
 4.	Simultaneous calculation of response, response-time, and recovey-time for all channels in the data file;
 5.	Power-law fitting of the response data;
-6.	Export all data from the analysis;
+6.	Linear fit in which the slope is the sensitivity given in response/concentration;
+7.	Export all data from the analysis;
 
 ## System Requirements
 
@@ -32,7 +33,7 @@ These system requirements were set after our most recent tests.
 ## Installation
 To intall a standalone version of this software, download the file gsdas 0.9.exe to open the installer [here](https://drive.google.com/drive/folders/1eW2FeAMugAU2CMUTQ32T6FijdTAGAont?usp=sharing)
 
-## Testing
+## data for Testing
 
 For testing all functionalities of the software, the files dataSample_1 and dataSameple_2 are available for download.
 
@@ -40,16 +41,21 @@ For testing all functionalities of the software, the files dataSample_1 and data
 
 This dataset corresponds to four different rGO-based sensors whose electrical resistance was recorded by controlled exposures of NO<sub>2</sub>, between 0.5 and 5 ppm. Each exposure cycle lasted 10 min and the recovery 50 min. For more information on the experimental details on this measurement, please, read the Experimental Info on the dataSample_1 file.
 
+
 ### dataSample_2
 
 This dataset corresponds to a stability test carried out on two ZnO-based sensors upon controlled O<sub>3</sub> exposure between 50 and 500 ppb during one month. Channels 1, 2, and 3 are the data from one sensor measured on three different weeks, while data from channels 4, 5, and 6 are the data from another similar sample measured at the same three weeks.
 
 Each exposure cycle was set to 15 min and the recovery to 60 min. For more information on the experimental details on this measurement, please, read the Experimental Info on the dataSample_2 file.
 
+### dataSmaple_3
+This dataset corresponds to a dynamic response-recovery curve of a polyaniline (PANI) film carried out with controlled ammonia exposure between 50 and 500 ppm. 
+
+Each exposure cycle was set to 15 min and and the recovery to 45 min. For furhter details on this measurements, please read the Experimental info on the dataSample_3 file.
+
 ## Authors
 
 Bruno S. de Lima, Weverton A. S. Silva, Amadou L. Ndiaye, Valmor R. Mastelaro, and Jérôme Brunet
-
 
 ## Acknowledgments
 
